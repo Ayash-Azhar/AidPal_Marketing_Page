@@ -1,0 +1,124 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #2563eb;
+  --primary-hover: #1d4ed8;
+  --secondary: #10b981;
+  --secondary-hover: #059669;
+  --accent: #ef4444;
+  --background: #ffffff;
+  --text: #1f2937;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text);
+}
+
+.btn-primary {
+  @apply bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-300;
+}
+
+.btn-secondary {
+  @apply bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded transition duration-300;
+}
+
+.section-title {
+  @apply text-3xl font-bold text-blue-600 mb-6 text-center;
+}
+
+.container {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+/* Add smooth scrolling for anchor links */
+/* html {
+  scroll-behavior: smooth;
+}
+
+/* Add a subtle animation for hover effects */
+/* a,
+button {
+  transition: all 0.3s ease;
+}
+ */ 
+
+
+
+
+ @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #2563eb;
+  --primary-hover: #1d4ed8;
+  --secondary: #10b981;
+  --secondary-hover: #059669;
+  --accent: #ef4444;
+  --background: #ffffff;
+  --text: #1f2937;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text);
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for colors */
+}
+
+/* Dark mode specific styling */
+html.dark {
+  --background: #2d2d2d;
+  --text: #e2e2e2;
+}
+
+button {
+  transition: background-color 0.3s ease;
+}
+
+button.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Add smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Add a subtle animation for hover effects */
+a,
+button {
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  @apply bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-300;
+}
+
+.btn-secondary {
+  @apply bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded transition duration-300;
+}
+
+.section-title {
+  @apply text-3xl font-bold text-blue-600 mb-6 text-center;
+}
+
+.container {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+/* Add smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Dark mode button styles */
+html.dark .btn-primary {
+  @apply bg-blue-500 text-white;
+}
+html.dark .btn-secondary {
+  @apply bg-green-600 text-white;
+}
