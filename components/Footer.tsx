@@ -74,8 +74,8 @@ export default function Footer() {
             </a>
           </div>
           <div className="mt-4 md:mt-0">
-            <a href="mailto:ayash.20221941@iit.ac.lk" className="hover:text-blue-400">
-              ayash.20221941@iit.ac.lk
+            <a href="mailto:aidpal01@gmail.com" className="hover:text-blue-400">
+              aidpal01@gmail.com
             </a>
           </div>
         </div>

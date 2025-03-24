@@ -59,10 +59,10 @@ export default function LoadingScreen() {
     >
       {/* Add your logo here */}
       <Image
-        src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Aidpal%20Logo-QsgJWIkx5UlmN7mVTy3oSLddmWerSR.png"
+        src="/Aidpal Logo.png"
         alt="Aidpal Logo"
-        width={120}
-        height={40}
+        width={400}
+        height={120}
         className="animate-bounce"
       />
     </div>
