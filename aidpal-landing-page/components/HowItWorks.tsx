@@ -4,9 +4,9 @@ import { motion } from "framer-motion"
 import Image from "next/image"
 
 const steps = [
-  { title: "Snap a photo of the injury", image: "/Mock 2.png" },
-  { title: "Follow tailored first aid guidance", image: "/Mock 3.png?height=200&width=200" },
-  { title: "Contact EMS with one tap if needed", image: "/Mock 1.png?height=200&width=200" },
+  { title: "Snap a photo of the injury", image: "/placeholder.svg?height=200&width=200" },
+  { title: "Follow tailored first aid guidance", image: "/placeholder.svg?height=200&width=200" },
+  { title: "Contact EMS with one tap if needed", image: "/placeholder.svg?height=200&width=200" },
 ]
 
 export default function HowItWorks() {
@@ -25,7 +25,7 @@ export default function HowItWorks() {
             >
               <div className="mb-4 relative">
                 <Image
-                  src={step.image || "\Mock 3.png"}
+                  src={step.image || "/placeholder.svg"}
                   alt={step.title}
                   width={200}
                   height={200}
